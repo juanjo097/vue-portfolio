@@ -1,0 +1,30 @@
+.s2
+{
+	background-color: var(--secondary_color);
+	border-bottom: 1px solid var(--border_color);
+	overflow: auto;
+}
+.about-wrapper
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	padding-top: 50px;
+	padding-bottom: 50px;
+	gap: 100px;
+}
+hr
+{
+    border: 1.5px solid var(--border_color);
+}
+#skills
+{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: var(--preview_shadow);
+}
+.social-links
+{
+	display: grid;
+	align-content: center;
+	text-align: center;
+}

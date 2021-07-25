@@ -59,5 +59,5 @@
 
 <script setup>
 import './Presentation.css';
-import MyPhoto from '../../assets/my-image.jpg';
+import MyPhoto from '../../assets/img/my-image.jpg';
 </script>
