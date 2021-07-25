@@ -18,7 +18,39 @@
                     </ul>
                 </div>
                 <div class="left-column">
+                    <img :src="MyPhoto" id="profile_pic" >
+                    <h5 style="text-align:center; line-height: 0"> 
+                        Personalizar Tema 
+                    </h5>
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
 
+                    <p id="settings-note">
+                        * Las configuraciones del tema serán guardados 
+                        <br> para tu próxima visita
+                    </p> 
+                </div>
+
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+	
+                            <h3>¿Quién soy?</h3>
+                            <p> Soy un Desarrollador Web FullStack,  
+                              fanático de la tecnología y apasionado por 
+                              el desarrollo web 👨‍💻.
+                            </p>
+
+                            <div id="corner-bl" class="corner"></div>
+								<div id="corner-br" class="corner"></div>
+                        </div>
+                    </div>                            
                 </div>
             </div>
        </div>
@@ -27,4 +59,5 @@
 
 <script setup>
 import './Presentation.css';
+import MyPhoto from '../../assets/my-image.jpg';
 </script>
