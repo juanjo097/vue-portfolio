@@ -1,6 +1,6 @@
 <template>
    <section class="s1">
-       <div class="greeting-wrapper">
+       <div class="main-container">
            <div class="greeting-wrapper">
                 <h1>Hola, soy Juan José Rodríguez</h1>
             </div>
