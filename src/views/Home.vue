@@ -1,8 +1,9 @@
 <template>
     <Presentation />
     <About />
+    <Experience />
 </template>
 
 <script setup>
-    import { Presentation, About } from '../components';
+    import { Presentation, About, Experience } from '../components';
 </script>
